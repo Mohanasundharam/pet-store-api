@@ -2,6 +2,7 @@ service: petstore
 
 provider:
   name: aws
+  runtime: java8
   memorySize: 1512
   timeout: 60
   stage: ${opt:stage,'dev'}
