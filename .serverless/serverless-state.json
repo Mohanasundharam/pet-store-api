@@ -164,7 +164,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/petstore/dev/1581680108955-2020-02-14T11:35:08.955Z/target/serverless-spring-boot-example-1.0-SNAPSHOT-lambda-package.zip"
+                "S3Key": "serverless/petstore/dev/1581681105388-2020-02-14T11:51:45.388Z/target/serverless-spring-boot-example-1.0-SNAPSHOT-lambda-package.zip"
               },
               "FunctionName": "petstore-dev-SpringBootPetStoreApi",
               "Handler": "com.amazonaws.serverless.sample.springboot.StreamLambdaHandler::handleRequest",
@@ -183,14 +183,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "SpringBootPetStoreApiLambdaVersion1O74MbarRr6Jv0vnLaqQcP8LMerHhuEmyR4ST97BG94": {
+          "SpringBootPetStoreApiLambdaVersionNpe2A1OfZeOh4W0uK2thHtpzSZZf32sdbLh1IgkhDg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "SpringBootPetStoreApiLambdaFunction"
               },
-              "CodeSha256": "Vgmp76g2+G6WO2CyM2xDxYG/bgs0YdFqsNV7LaXu8Mw="
+              "CodeSha256": "agD/wj6bkzQsiRy+2GGcW+ViazqusstBjRi3N/AW3xw="
             }
           },
           "ApiGatewayRestApi": {
@@ -263,7 +263,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1581680107947": {
+          "ApiGatewayDeployment1581681104317": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -322,7 +322,7 @@
           "SpringBootPetStoreApiLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "SpringBootPetStoreApiLambdaVersion1O74MbarRr6Jv0vnLaqQcP8LMerHhuEmyR4ST97BG94"
+              "Ref": "SpringBootPetStoreApiLambdaVersionNpe2A1OfZeOh4W0uK2thHtpzSZZf32sdbLh1IgkhDg"
             }
           },
           "ServiceEndpoint": {
@@ -440,7 +440,7 @@
         "timeout": 60,
         "runtime": "java8",
         "vpc": {},
-        "versionLogicalId": "SpringBootPetStoreApiLambdaVersion1O74MbarRr6Jv0vnLaqQcP8LMerHhuEmyR4ST97BG94"
+        "versionLogicalId": "SpringBootPetStoreApiLambdaVersionNpe2A1OfZeOh4W0uK2thHtpzSZZf32sdbLh1IgkhDg"
       }
     },
     "resources": {
@@ -454,7 +454,7 @@
   },
   "package": {
     "individually": true,
-    "artifactDirectoryName": "serverless/petstore/dev/1581680108955-2020-02-14T11:35:08.955Z",
+    "artifactDirectoryName": "serverless/petstore/dev/1581681105388-2020-02-14T11:51:45.388Z",
     "artifact": ""
   }
 }
